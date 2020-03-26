@@ -1,0 +1,20 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+input {
+  padding: 10px 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+input:focus {
+  border-color: #000;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
