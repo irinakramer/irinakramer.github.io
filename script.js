@@ -11,7 +11,7 @@
 
 'use strict';
 (function () {
-    var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
+    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
     var apiKey = "bdba06f98763faea51641b4fe33ef3e1";
     let totalUrl = weatherUrl + '&appid=' + apiKey;
 
